@@ -1,0 +1,17 @@
+h1{
+    color:blueviolet;
+    font-size: 30px;
+}
+p{
+    color:brown;
+}
+div{
+    background-color: goldenrod;
+    height:100px;
+    width:100px;
+    border:4px;
+    border-color: indianred;
+}
+button{
+    
+}
