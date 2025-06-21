@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title"><u>Survey Form</u></h1>
+  <center><p id="description"> Please Fill all the required details</p></center>
+  <form id="survey-form">
+    <label for="survey-form" id="name-label">Enter your Name:</label>
+    <input id="name" type="text" placeholder="Enter your Name" required>
+    <br>
+    <br>
+    <label for="email" id="email-label">Enter your email:</label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+      <br><br>
+      <label for="number" id="number-label">Enter your Phone number:</label>
+        <input id="number" type="number" 
+        placeholder="Enter your Phone number" required min="0" max="9">
+        <br><br>
+        <label for="country">Select your country:</label>
+        <select id="dropdown" required >Select your country:
+
+          <option value="" ></option>
+            <option value="india">India</option>
+            <option value="USA">USA</option>
+            <option value="Japan">Japan</option>
+            <option value="Germany">Germany</option>
+            <option value="Italy">Italy</option>
+            </select>
+            <br><br>
+            <label for="genger">Select your gender:</label><br><br>
+      <input type="radio"  name="gender" value="male" id="gender" required>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="female" required>
+      <label for="female">Female</label>
+    <input type="radio" name="gender" value="other" id="other" required>
+      <label for="other">Other</label>
+      <br><br>
+      <label for="checkbox">Choose your field of work:</label>
+      <br><br>
+        <input type="checkbox" value="Businness">Business<br><br>
+        <input type="checkbox" value="IT">IT<br><br>
+        <input type="checkbox" value="Agriculture"<br>Agriculture<br><br>
+        <input type="checkbox" value="Pharmacy">Pharmacy<br><br>
+        <input type="checkbox" value="IT">Other</input>
+      <br><br>
+        <label for="textarea">Tell us about yourself:</label>
+        <br><br>
+        <textarea></textarea>
+        <br><br><br>
+        <center>
+        <input type="submit" id="submit" value="Submit">
+        </center>
+        </body>
+        </html>
