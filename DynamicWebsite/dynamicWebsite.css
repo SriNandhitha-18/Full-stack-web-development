@@ -1,0 +1,38 @@
+.logo {
+    width: 150px;
+    height: 50px;
+    padding:10px;
+}
+.container div {
+            display: inline-block;
+            clear: both;
+            overflow: hidden;
+            white-space: nowrap;
+            grid-template-columns: auto auto;
+            background-color: black;
+            padding: 2px;
+        }
+.container div {
+            background-color: burlywood;
+            border-radius: 2px;
+            border: 1px solid black;
+            padding: 5px; 
+        }
+.pic {
+    width: 150;
+    height:300px;
+    align-content : center;
+}
+input{
+    width: 300px;
+    height:auto;
+    padding: 10px;
+}
+.shop{
+    width: 150;
+    height: 300px;
+}
+footer{
+    padding:10px;
+    background-color: burlywood;
+}
