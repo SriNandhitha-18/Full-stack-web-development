@@ -1,0 +1,12 @@
+body {
+    background-color: darkcyan;
+}
+h1{
+    padding: 20px;
+    background-color: wheat;
+    text-align: center;
+}
+p{
+    font-style: italic;
+    color:antiquewhite
+}
