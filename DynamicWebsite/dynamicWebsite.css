@@ -2,19 +2,23 @@
     width: 150px;
     height: 50px;
     padding:10px;
+    color:beige;
 }
 .container div {
             display: inline-block;
+            animation: both;
             clear: both;
             overflow: hidden;
             white-space: nowrap;
-            grid-template-columns: auto auto;
+            grid-template-columns:auto;
             background-color: black;
-            padding: 2px;
+            padding: auto;
+            color: ;
         }
 .container div {
             background-color: burlywood;
-            border-radius: 2px;
+            border-radius: 5px;
+            box-shadow: inset;
             border: 1px solid black;
             padding: 5px; 
         }
@@ -26,7 +30,10 @@
 input{
     width: 300px;
     height:auto;
-    padding: 10px;
+    padding-bottom: 11px;
+    background-color:goldenrod;
+    align-items: center;
+    
 }
 .shop{
     width: 150;
@@ -35,4 +42,31 @@ input{
 footer{
     padding:10px;
     background-color: burlywood;
+    
+}
+.photo{
+    width: 280px;
+    height:160px;
+}
+.block{
+    padding-bottom: 4px;
+    align-items: center;
+}
+.red{
+    display: flex;
+    align-items: center;
+    width: 10px;
+    height:auto;
+}
+.box:hover{
+    background-color:darkgoldenrod;
+    
+}
+.brown{
+    color: brown;
+}
+hr{
+    background-color: crimson;
+    width:850px;
+    height: 2px;
 }
