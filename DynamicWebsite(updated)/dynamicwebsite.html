@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajio</title>
+    <link rel="stylesheet" href="dynamicWebsite.css">
+</head>
+<body bgcolor="black">
+    <nav class="navbar">
+        <div class="logo">AJIO</div>
+        <div class="nav-categories">
+            <div class="category" onmouseenter="showDropdown()" onmouseleave="hideDropdown()">
+                Categories
+                <div class="dropdown" id="dropdown">
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">Kids</a>
+                    <a href="#">Brands</a>
+                    <a href="#">Beauty</a>
+                    <a href="#">Accessories</a>
+                    <a href="#">Home & Kitchen</a>
+                    <a href="#">Customer Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button><span class="search-icon">&#128269;</span></button>
+        </div>
+        <button class="signin-btn" onclick="window.location.href='signin1.html'">Sign In</button>
+        <a href="addtocart.html"><button class="cart-btn">MyCart</button></a>
+    </nav>
+    <main>
+        <section class="vertical-section scroll-section" id="carousel">
+            <center>
+            <img src="https://www.grabon.in/indulge/wp-content/uploads/2021/03/Ajio-Coupons-Deals-About.jpg" alt="Banner 1" class="carousel-img">
+            <img src="https://th-i.thgim.com/public/incoming/2lgf26/article67412132.ece/alternates/FREE_1200/ajiopic1.png" alt="Banner 2" class="carousel-img">
+            <img src="https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000/m/a82c/b5ea/d8ab/80e7/d222/89f2/1368/20b3/801b/3875/3875.jpg" alt="Banner 3" class="carousel-img">
+        </center>
+        </section>
+        <section class="vertical-section products-section">
+            <div class="product-card">
+                <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/5453186/2018/10/30/ef1d9ca6-156b-4cf6-a52d-1e7f58b51b8b1540888118150-Roadster-Men-Jackets-9141540888117961-1.jpg" alt="Product 1">
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.grabon.in/gograbon/images/deal/1714994799756/ajio-women-printed-kurta-with-pants-dupatta.JPG" alt="Product 2">
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/R.35e4a9c5cb91cee1fc0dc796d893fcdb?rik=eghiSlCWiLjbjQ&riu=http%3a%2f%2fg03.a.alicdn.com%2fkf%2fHTB1aWGOJVXXXXaBXXXXq6xXFXXXr%2fSummer-Dresses-For-Girls-Cotton-Children-Clothing-Denim-Baby-Clothes-Floral-Short-Sleeve-Kids-Clothes-For.jpg&ehk=A%2fzhUHwXbUiKtCyEMml4cfBmoD%2f1WS3wzxBSTbP%2bkjY%3d&risl=&pid=ImgRaw&r=0" alt="Product 3">
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.BQdbAJLdIijNSYWQuX6dqgHaJ4?r=0&pid=ImgDet&w=184&h=245&c=7&dpr=1.3&o=7&rm=3" alt="Product 4">
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+        </section>
+
+    
+         
+        <section class="vertical-section zoom-section">
+            <img src="https://etimg.etb2bimg.com/thumb/msid-84036850,imgsize-319991,width-1200,height=765,overlay-etbrandequity/advertising/ajio-releases-a-series-of-tvcs-for-its-mega-sale-event.jpg" alt="Zoom 1" class="zoom-img">
+            <img src="https://th.bing.com/th/id/OIP.lzRxHpHC13nV4_1rX_185AHaEK?r=0&rs=1&pid=ImgDetMain" alt="Zoom 2" class="zoom-img">
+            <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw42c4051b/images/aw24/skdapsara9894aw24blk_1.jpg?sw=502&sh=753" alt="Zoom 3" class="zoom-img">
+            <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwd7a0006e/images/ss23/skdchintzf8562ss23yel_6.jpg?sw=502&sh=753" alt="Zoom 4" class="zoom-img">
+        </section>
+       <center>
+        <a href="checkout.html">
+            <button class="check">CheckOut</button>
+        </a>
+        </center>
+         
+    </main>
+
+    <!-- Footer -->
+    <footer>
+    <strong>Help</strong><br>
+    <u>Track your Order<br>
+    Frequently Asked Questions<br>
+    Returns<br>
+    Cancellations<br>
+    Payments</u>
+    <br><br>
+    <u></u><strong>Follow us</strong><br>
+    <u><a href="https://www.facebook.com/AJIOlife/" id="link" target="_blank">Facebook</a><br>
+    <a href="https://www.instagram.com/ajiolife/" id="link" target="_blank">Instagram AJIOLife</a><br>
+   <a href="https://www.instagram.com/ajioluxe/" id="link" target="_blank">Instagram AJIOLuxe</a><br>
+   <a href="https://www.pinterest.com/ideas/outfits-from-ajio/905367724006/" id="link" target="_blank">Pinterest</a></u>   
+    </footer>
+
+    <script src="dynamicwebsite.js"></script>
+</body>
+</html>

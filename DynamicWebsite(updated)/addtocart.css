@@ -1,0 +1,33 @@
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: #232f3e;
+    color: #fff;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.cart{
+    width:500px;
+    height: 500px;
+}
+.mycart{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: #232f3e;
+    text-align:center;
+    color:burlywood;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+h2{
+    color: darkorange;
+}
+h3{
+    color:darksalmon
+}
