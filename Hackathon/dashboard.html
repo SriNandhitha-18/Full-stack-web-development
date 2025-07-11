@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Details Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Details Dashboard</h1>
+    <form id="Form">
+      <input type="text" id="Input" placeholder="Enter Student ID" required/><br><br>
+      <input id="password" type="password" placeholder="Enter Password" required/><br>
+      <center><button type="submit">Login</button></center>
+    </form>
+    <div id="Display" class="card hidden">
+      <h2 id="Name"></h2>
+      <p id="description"></p>
+      <p><strong>Name:</strong><span id="name"></span></p>
+      <p><strong>Email Id:</strong><span id="email"></span></p>
+    </div>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
