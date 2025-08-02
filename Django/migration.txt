@@ -1,0 +1,40 @@
+In Django, makemigrations and migrate are two essential commands used to manage changes to your
+database schema through Django's ORM
+
+makemigrations
+-Purpose: Detects changes in your models.py and creates migration files.
+-What it Does: Generates python files that describe how to update the database schema.
+      python manage.py makemigrations
+
+migrate
+-Purpose: Applies the migration files to the actual database.
+-What it does: Executes SQL commands to create or modify tables based on the migration files.
+     python manage.py migrate
+
+Workflow
+1.Edit your models - Add or change fields/classes.
+2.Run makemigrations - Django creates migration files.
+3.Run migrate - Changes are applied to the database.
+
+ORM in Django?
+ORM stands for Object-Relational Mapping
+
+ORM is a programming technique that allows you to interact with your database(such as SQLite, PostgreSQL, MySQL, etc.)
+
+Django has a powerful and built-in ORM system, so you can define your database structure as python classes(models), 
+and Django handles creating/altering/deleting the corresponding tables and rows behind the scenes.
+
+py manage.py shell
+from myapp.models import <class_name>
+
+#create a new Student
+<class_name>.objects.create(name="",roll="")
+
+#view all Students
+<class_name>.objects.all()
+
+
+
+
+
+

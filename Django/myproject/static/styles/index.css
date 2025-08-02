@@ -1,0 +1,17 @@
+body{
+    padding: 50px;
+    text-decoration: none;
+}
+h1{
+    color:#333;
+}
+p{
+    line-height:1.5 ;
+}
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+div.container {
+    width: 80%;
+}

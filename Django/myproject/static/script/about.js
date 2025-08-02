@@ -1,0 +1,1 @@
+console.log("Hello, This is about page! from Script");
